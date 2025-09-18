@@ -153,38 +153,105 @@ console.log(--a); //50
 //     console.log("Not Eligible");   
 // }
 
-let age = 4869794675;
+// let age = 4869794675;
 
-if((age <= 18) && (age >=1))
-{
-    console.log("Not adult"); 
+// if((age <= 18) && (age >=1))
+// {
+//     console.log("Not adult"); 
+// }
+// else if ((age > 18) && (age <= 60) ) {
+//     console.log("Adult"); 
+// } 
+// else if ((age > 60) && (age <= 100) ) {
+//     console.log("Older");     
+// } 
+// else {
+//     console.log("Invalid age"); 
+// }
+
+
+// let number = 76878;
+
+// if(number % 2 == 0){
+//     console.log("these is even number"); 
+// }
+// else{
+//     console.log("these is odd number ");
+// }
+
+
+// let day = 1;
+
+// switch(day){
+
+//     case 1 : console.log("Monday");
+//     break;
+//     case 2 : console.log("Tuesday");
+//     break;
+//     case 3 : console.log("Wednesday");
+//     break;
+//     case 4 : console.log("Thursday");
+//     break;
+//     case 5 : console.log("Friday");
+//     break;
+//     case 6 : console.log("Saturday");
+//     default : console.log("Invalid number");
+    
+// }
+
+
+//loops 
+//for 
+// let table = 5;
+// for(let i = 1; i <= 10 ; i++)
+// {
+//     console.log(i*table);
+// }
+
+
+// for(let i = 10; i >= 1 ; i--)
+// {
+//     console.log(i);
+// }
+
+//while loop
+
+//let j = 1;
+// while(j<=10){
+//            console.log(j);
+//            j++;        
+// }
+
+let j = 11;
+do{
+ console.log(j);
+ j++;
 }
-else if ((age > 18) && (age <= 60) ) {
-    console.log("Adult"); 
-} 
-else if ((age > 60) && (age <= 100) ) {
-    console.log("Older");     
-} 
-else {
-    console.log("Invalid age"); 
-}
-
-
-let number = 76878;
-
-if(number % 2 == 0){
-    console.log("these is even number"); 
-}
-else{
-    console.log("these is odd number ");
-}
-
-
-
-
-
+while(j<=10);
 
 
 
 // 1- 18 -- 60 -100
 // not adult  adult  older
+
+let calculation  = 15;
+switch(calculation){
+
+  case 1 :  
+  let num1 = 30;
+  let num2 = 50;
+  let add = num1 +num2;
+  console.log(`Addition is ${add}`);
+  break;
+
+  case 2: 
+   let table = 5;
+  for(let i = 1; i <= 10 ; i++)
+  {
+    console.log(`Table is : ${table} X ${i} = ${table * i}`);
+  }
+  break;
+  default : 
+  console.log("Not Valid");
+ 
+}
