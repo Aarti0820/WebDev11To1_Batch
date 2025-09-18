@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+.outerdiv{
+    border: 5px solid black;
+    width: 700px;
+    height: 400px;
+    background-color: blue;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+.middle{
+ 
+    border: 5px solid black;
+    padding: 150px;
+    background-color: bisque;
+
+}
+.inner{
+    border: 5px solid black;
+    padding: 120px;
+   
+    background-color: rgb(216, 128, 20);
+
+}
+
+div{
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    border-radius: 30%;
+}

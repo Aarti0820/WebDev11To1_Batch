@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .box1 {
+            width: 800px;
+            height: 100px;
+            background-color: aquamarine;
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .box2 {
+            width: 400px;
+            height: 100px;
+            background-color: rgb(144, 19, 63);
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        @media(max-width:1222px) {
+            .box1 {
+                width: 500px;
+            }
+        }
+
+        @media(max-width:375px) {
+            .box1 {
+                width: 100px;
+            }
+
+            .box2 {
+                width: 100px;
+            }
+
+        }
+
+        @media(min-width: 500px) {
+            .box1 {
+                background-color: coral;
+            }
+        }
+
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            body {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">BOX1</div>
+    <div class="box2">BOX2</div>
+
+
+
+
+
+
+</body>
+
+</html>

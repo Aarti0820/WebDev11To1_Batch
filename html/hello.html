@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+   <style>
+     .box{
+        width: 800px;
+        height: 100px;
+        background-color: red;
+        display: inline-block;
+        font-size: 60px;
+     }
+    .box2{
+        width: 400px;
+        height: 100px;
+        background-color: green;
+        display: inline-block;
+        font-size: 60px;
+     }
+
+     @media (max-width: 1222px){
+        .box{
+            width: 500px;
+        }
+     }
+
+
+     @media(max-width: 365px) and (min-width:1388){
+       body{
+        background-color: bisque;
+       }
+       .box{
+            width: 150px;
+        }
+        .box2{
+            width: 150px;
+        }
+     }
+
+     @media (min-width: 601px) and (max-width: 992px) {
+      body { background-color: lightgreen; }
+    }
+    </style>
+</head>
+<body>
+    <!-- <div class = "box">
+        div1
+    </div>
+    <div class = "box2">
+        div2
+    </div> -->
+
+
+
+    <!-- <div class = "container-md bg-danger">
+        <div class = "row">
+        <div class = "col-6">column1  </div>
+        <div class = "col-6">column2</div>
+        </div>
+    </div>
+
+ <nav class="navbar bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Site</a>
+     <a class="navbar-brand" href="#">My Site</a>
+  </div>
+</nav>
+
+
+<div class="row">
+  <div class="col order-2 bg-warning">Second in order</div>
+  <div class="col order-1 bg-info text-white">First in order</div>
+  <div class="col order-3 bg-danger text-white">Third in order</div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col order-sm-1 bg-warning">Second in order</div>
+  <div class="col order-md-1 bg-info text-white">First in order</div>
+  <div class="col order-lg-1 bg-danger text-white">Third in order</div>
+</div>
+
+
+<form class="needs-validation" novalidate>
+  <div class="col-4">
+    <input type="text" class="form-control" placeholder="Name" required>
+    <div class="invalid-feedback">Name required!</div>
+  </div>
+  <button class="btn btn-primary mt-2" type="submit">Submit</button>
+</form>
+
+
+<buttoon class = "btn btn-outline-success"><i class="bi bi-bell-slash-fill"></i>click</buttoon>
+
+
+<form>
+  <input type = "text" class = "form-control" placeholder="Enter your name">
+  <div class = "form-check">
+  <input class="form-check-input"  type = "checkbox" id="for">
+  <label for = "for">Music</label>
+  <input class="form-check-input"  type = "checkbox" id="for1">
+  <label class = "form-check-label" for = "for1">Play</label>
+  </div>
+</form>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="check1">
+  <label class="form-check-label" for="check1">Remember me</label>
+</div> -->
+
+
+  <!-- <div class="container mt-3">
+  <form>
+    <div class="row mb-3">
+      <label for="name" class="col-sm-2 col-form-label">Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+    </div>
+  -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyWebsite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+</body>
+</html>

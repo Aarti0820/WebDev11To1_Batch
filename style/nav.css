@@ -1,0 +1,32 @@
+.nav{
+    background-color: bisque;
+}
+.img{
+    width: 100px;
+    border-radius: 40px;
+    position: fixed;
+
+}
+a{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+}
+div{
+    text-align: end;
+}
+.box{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    overflow: auto ; 
+    position: relative;
+    left: 20px;
+    top: 50px;
+
+}
+#ig{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}

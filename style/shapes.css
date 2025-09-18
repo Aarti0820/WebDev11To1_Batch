@@ -1,0 +1,171 @@
+.square{
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    border:solid black;
+    text-align: center;
+   display: none;
+}
+.rectrangle{
+    width: 200px;
+    height: 100px;
+    background-color:antiquewhite ;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border: solid black;
+    display: inline-block;
+}
+.oval{
+    height: 80px;
+    width: 150px;
+    background-color: darkgray;
+    border-radius: 50%;
+    text-align: center;
+    border: solid black;
+    display: inline-block;
+}
+.traingle{
+      
+       width: 0;
+       height: 0;
+       border-left: 50px solid  transparent;
+       border-right: 50px solid transparent;
+       /* border-bottom: 50px solid black; */
+       border-bottom: 100px solid red;
+       display: inline-block;
+   
+}
+h1{
+    display: inline;
+    background-color: brown;
+}
+span{
+    background-color: rgb(230, 172, 172);
+     display: block;
+     width: 200px;
+     height: 200px;
+     padding:20px;
+}
+
+/* [type = "text"]{
+    background-color: brown;
+}
+[href ^= "https"]{
+    color: crimson;
+} */
+
+/* [href $= "com"]{
+    color: rgb(118, 160, 19);
+}
+
+[href *= "gogle"]{
+    background-color: blue;
+} */
+
+button{
+    color: rgb(223, 210, 191);
+    background-color: rgb(168, 106, 197);
+    width: 100px;
+    font-size: 20px;
+    border: solid rgb(173, 105, 105);
+    border-radius: 10px;
+}
+
+button:hover{
+    width: 200px;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 50px;
+    
+}
+button:active{
+    background-color: aqua;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(125, 172, 51);
+}
+
+li:first-child{
+    color: brown;
+}
+
+li:last-child{
+    color: coral;
+}
+
+li:nth-child(3){
+    color: rgb(109, 158, 54);
+}
+
+input:focus{
+    background-color:rgb(160, 104, 31) ;
+}
+
+p::first-letter{
+    color: blueviolet;
+    font-size: 50px;
+
+}
+
+p::first-line{
+    color: rgb(74, 83, 83);
+}
+
+::selection{
+    background-color: black;
+}
+
+p::before{
+       content: "new";
+}
+p::after{
+    content : "after";
+}
+
+.astric::after{
+    content: "*";
+    color: red;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 96, 151);
+    transition:  background-color 2s linear 0.5s;
+}
+
+.box:hover{
+     background-color: rgb(136, 22, 69);
+
+}
+
+/* transition property , transition duration , transition method , Delay */
+
+
+#div{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url("bird.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+body{
+    background-image: url("first_img.jpg");
+    background-size: contain;
+}
