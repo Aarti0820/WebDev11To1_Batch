@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Box Model</title>
+    <style>
+        h2{
+            text-align: center;
+            color: brown;
+        }
+        #mybox{
+            width: 400px;
+            height: 300px;
+            background-color: rgb(97, 39, 62);
+            color: rgb(253, 252, 253);
+            border: 2px solid black;
+            text-align: center;
+            margin: auto;
+            border-radius: 20px;
+        }
+        button{
+            background-color: cadetblue;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+     <h2> Dynamic Box Model</h2>
+    <div id = "mybox">
+         Dynamic Box 
+    </div>
+
+    <button onclick= "onChange()">OnChange</button>
+
+
+    <script>
+        function onChange(){
+            const box = document.getElementById("mybox");
+            box.style.background = "#D68678";
+            box.style.textAlign = "start";
+            box.style.borderStyle = "dashed";
+            box.style.width = "200px";
+            box.style.height = "200px";
+        }
+
+        //oops ...
+        
+        //
+
+
+
+        
+
+
+
+    </script>
+</body>
+</html>

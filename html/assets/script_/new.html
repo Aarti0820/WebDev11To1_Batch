@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page</title>
+  <style>
+    #box{
+      width: 300px;
+      height: 300px;
+      border: 2px solid green;
+      border-radius: 20px;
+      background-image: url("https://media.istockphoto.com/id/502789173/photo/light-bulb-concept.jpg?s=612x612&w=0&k=20&c=vJfSDuFJf_4UsQcUsdMNUfDkkNU6Bf9cTHF-n4-Zwvs=");
+      background-size: cover;
+      margin: auto;
+      text-align: center;
+      color: rgb(224, 211, 211);
+      box-shadow: 10px 10px 2px gray;
+    }
+    h1{
+      color: rgb(179, 62, 119);
+      text-align: center;
+      text-shadow: 5px 10px 5px gray;
+    }
+   #togglebutton{
+      background-color: rgb(166, 149, 126);
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 500px;
+      margin-top: 50px;
+      color: chocolate;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<!-- <body id="bg">
+  <h1>Dynamic Web Page</h1>
+  
+  <div id = "box">My Box</div>
+  <button id="togglebutton" onclick="containChange()">Click</button>
+
+  <button id = "mode" onclick="modeChange()">Mode</button>
+
+  <script> 
+
+   
+
+    // let isOn = false;
+    // function containChange(){
+    // const contain =  document.getElementById("box");
+    // const toggle = document.getElementById("togglebutton");
+    // if(isOn){
+    //   contain.style.backgroundImage = "URL('https://media.istockphoto.com/id/502789173/photo/light-bulb-concept.jpg?s=612x612&w=0&k=20&c=vJfSDuFJf_4UsQcUsdMNUfDkkNU6Bf9cTHF-n4-Zwvs=')"
+    //   toggle.textContent = "ON";
+    // }
+    // else{
+    //   contain.style.backgroundImage = "URL('https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?cs=srgb&dl=pexels-led-supermarket-179772-577514.jpg&fm=jpg')";
+    //   toggle.textContent = "OFF";
+    // }
+    //  isOn = !isOn;
+    // }
+
+    
+
+
+  //  let mode = false;
+  //  function modeChange(){
+  //   let thim = document.getElementById("bg");
+  //   //let button = documennt.getElementById("mode");
+  //   if(mode){
+  //     thim.style.backgroundColor = "white";
+  //     //button.textContent = "Dark Thim";
+  //   }
+  //   else{
+  //     thim.style.backgroundColor = "#4f6861";
+  //     //button.textContent = "light Thim";
+  //   }
+  //   mode = !mode;
+  //  }-->
+
+
+ <script>
+
+  // const Student ={
+  //       name : "john",
+  //       age : 22,
+  //       city: "pune",
+  // }; 
+
+  // // console.log(Student.name);
+  // // console.log(Student.age);
+  // // console.log(Student.city);
+
+  // for(let item in Student){
+  //   console.log(item + ": "+ Student[item]);
+    
+  // }
+
+  class Student {
+      constructor(name , age , city){
+        this.name = name;
+        this.age = age;
+        this.city = city;
+        this.greet = function(){
+          console.log(`Name is : ${this.name} `);  
+        }
+      }
+  }
+const std1 = new Student("john" , 22 ,"pune" );
+const std2 = new Student("kartik" , 25 ,"pimpri" );
+const std3 = new Student("piyush" , 20 ,"nasik" );
+    
+std1.greet();
+std2.greet();
+
+
+//collection of multiple data (same type)
+
+let num = 100;
+
+let arry = [100 , 200 , 300 , 400 , 500];
+
+//console.log(arry.length);
+
+// for(let i = 0; i<arry.length ; i++){
+//   console.log(arry[i]);
+// }
+
+
+
+arry.push(600);
+arry.push(700);
+arry.unshift(50);
+arry[5] = 100;
+arry.shift();
+//arry.reverse();
+
+arry.pop();
+
+for(let item of arry){
+  console.log(item);
+}
+
+console.log( "length is "+ arry.length);
+
+  </script> 
+</body>
+</html>
